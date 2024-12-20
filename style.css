@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+
+.odd-section{
+    background-image: linear-gradient(to right, rgba(11, 94, 215, 0.15), rgba(255, 255, 255, 1)) !important;
+    background-position: left top !important;
+    background-size: auto !important;
+    background-repeat: no-repeat !important;
+}
+
+
+section{
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+
+  .iconHolder{
+  width:55px;
+  height:55px;
+}
+
+
+  span{
+  font-family: Inter,sans-serif;
+}
+.overflow-x-hidden {
+  overflow-x: hidden !important;
+}
+.CurriculumTab .nav-link{
+  background-color: white !important;
+  border: 1px solid rgba(0,0,0,0.15) !important;
+  min-width:150px;
+}
+.CurriculumTab .nav-link.nav-child{
+    max-width: 150px;
+  min-height: 105px;
+  height:113px;
+}
+.CurriculumTab .nav-link:not(.active):hover, .CurriculumTab .nav-link:hover, .CurriculumTab .nav-link:focus{
+  background-color:#fff !important;
+  border-color: rgba(0,0,0,0.15) !important;
+}
+.CurriculumTab .nav-link.active .mainTitle{
+  color:#0b5ed7;
+}
+.CurriculumTab .nav-link .mainTitle{
+  color:#000;
+}
+
+.CurriculumTab .nav-link.active {
+  background-color: white !important;
+  color:#0b5ed7 !important;
+  border: 1px solid #0b5ed7 !important;
+  box-shadow: 0 5px 0px rgba(11,94,215,.8);
+}
+
+.CurriculumTab .nav-link.active .CourseText {
+  opacity: 1 !important;
+  font-weight:600;
+}
+.CurriculumTab .navBtns{
+align-items: center;
+  background: #0b5ed7a3;
+  background: #0b5ed7;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+/*   z-index: 99; */
+  transition: 0.2s ease-out;
+  border: 0;
+}
+  .CurriculumTab .navBtns.btn:not([disabled]){
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+  }
+  .CurriculumTab .navBtns.btn:disabled{
+    opacity: 0.5;
+  }
+  .CurriculumTab .navBtns img{
+    width:8px;
+  }
+  .CurriculumTab .prevButton img{
+    transform: rotate(-180deg);
+  } 
+
