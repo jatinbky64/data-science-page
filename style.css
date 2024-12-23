@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 body{
     width: 100%;
     min-height: 100vh;
@@ -15,10 +12,10 @@ body{
 
 
 .odd-section{
-    background-image: linear-gradient(to right, rgba(11, 94, 215, 0.15), rgba(255, 255, 255, 1)) !important;
-    background-position: left top !important;
-    background-size: auto !important;
-    background-repeat: no-repeat !important;
+  background-image: linear-gradient(rgba(11, 94, 215, 0.05), rgba(11, 94, 215, 0.05)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
 }
 
 
@@ -36,6 +33,9 @@ section{
 }
 
 
+
+
+/* Styles for  Syllabus Tabs  */
   span{
   font-family: Inter,sans-serif;
 }
@@ -101,3 +101,13 @@ align-items: center;
     transform: rotate(-180deg);
   } 
 
+
+
+  /* Responsiveness */
+  @media (max-width: 768px){
+    section{
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+  }
+  
+  }
